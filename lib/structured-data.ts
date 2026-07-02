@@ -1,7 +1,11 @@
 import { COMPANY, PRODUCTS, SITE_URL } from "./constants";
 
 export function getOrganizationSchema() {
-  const identifiers = [
+  const identifiers: Array<{
+    "@type": "PropertyValue";
+    name: string;
+    value: string;
+  }> = [
     { "@type": "PropertyValue", name: "CIN", value: COMPANY.cin },
     { "@type": "PropertyValue", name: "PAN", value: COMPANY.pan },
     { "@type": "PropertyValue", name: "TAN", value: COMPANY.tan },
