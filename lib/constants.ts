@@ -9,7 +9,7 @@ export const COMPANY = {
   vision:
     "Become one of India's leading technology companies creating products used by millions worldwide.",
   domain: SITE_URL,
-  contactEmail: "admin-swarun@savarun.in",
+  contactEmail: "sawaruntech@savarun.in",
   contactPhone: "+91 7689070708",
   registeredAddress:
     "125, Sherpur, Suroth, Hindaun, Karauli — 322236, Rajasthan, India",
